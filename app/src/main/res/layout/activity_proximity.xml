@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ProximityActivity">
+
+    <TextView
+        android:id="@+id/text_view_proximity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proximity Sensor"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/finger_print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Go to Fingerprint sensor"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
